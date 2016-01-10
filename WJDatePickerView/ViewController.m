@@ -7,8 +7,10 @@
 //
 
 #import "ViewController.h"
-
+#import "WJDatePickerView.h"
 @interface ViewController ()
+
+@property (weak, nonatomic) IBOutlet WJDatePickerView *datePicker;
 
 @end
 
@@ -16,12 +18,18 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+        
+//    [self.datePicker showDatePickerViewWithType:DatePicker_Day];
+//    [self.datePicker showDatePickerViewWithType:DatePicker_Year];
+//    [self.datePicker showDatePickerViewWithType:DatePicker_Month];
+//    [self.datePicker showDatePickerViewWithType:DatePicker_Hour];
+    [self.datePicker showDatePickerViewWithType:DatePicker_Minute];
+//    [self.datePicker showDatePickerViewWithType:DatePicker_Second];
+//    [self.datePicker showDatePickerViewWithType:DatePicker_DayMinute];
+//    [self.datePicker showDatePickerViewWithType:DatePicker_DaySecond];
 }
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (IBAction)selectedValues:(id)sender {
+    NSLog(@"values = %@",self.datePicker.selectedData);
 }
 
 @end

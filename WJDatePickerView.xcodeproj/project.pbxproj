@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C92501641C3ABA060026ADE5 /* WJDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C92501631C3ABA060026ADE5 /* WJDatePickerView.m */; };
+		C92501661C3ABA1E0026ADE5 /* WJDatePickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C92501651C3ABA1E0026ADE5 /* WJDatePickerView.xib */; };
 		C9ED91F71C3AB59F00FF92C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9ED91F61C3AB59F00FF92C6 /* main.m */; };
 		C9ED91FA1C3AB59F00FF92C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9ED91F91C3AB59F00FF92C6 /* AppDelegate.m */; };
 		C9ED91FD1C3AB59F00FF92C6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9ED91FC1C3AB59F00FF92C6 /* ViewController.m */; };
@@ -16,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C92501621C3ABA060026ADE5 /* WJDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJDatePickerView.h; sourceTree = "<group>"; };
+		C92501631C3ABA060026ADE5 /* WJDatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJDatePickerView.m; sourceTree = "<group>"; };
+		C92501651C3ABA1E0026ADE5 /* WJDatePickerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WJDatePickerView.xib; sourceTree = "<group>"; };
 		C9ED91F21C3AB59F00FF92C6 /* WJDatePickerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WJDatePickerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9ED91F61C3AB59F00FF92C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C9ED91F81C3AB59F00FF92C6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -63,6 +68,9 @@
 				C9ED91FB1C3AB59F00FF92C6 /* ViewController.h */,
 				C9ED91FC1C3AB59F00FF92C6 /* ViewController.m */,
 				C9ED91FE1C3AB59F00FF92C6 /* Main.storyboard */,
+				C92501621C3ABA060026ADE5 /* WJDatePickerView.h */,
+				C92501631C3ABA060026ADE5 /* WJDatePickerView.m */,
+				C92501651C3ABA1E0026ADE5 /* WJDatePickerView.xib */,
 				C9ED92011C3AB59F00FF92C6 /* Assets.xcassets */,
 				C9ED92031C3AB59F00FF92C6 /* LaunchScreen.storyboard */,
 				C9ED92061C3AB59F00FF92C6 /* Info.plist */,
@@ -138,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9ED92051C3AB59F00FF92C6 /* LaunchScreen.storyboard in Resources */,
+				C92501661C3ABA1E0026ADE5 /* WJDatePickerView.xib in Resources */,
 				C9ED92021C3AB59F00FF92C6 /* Assets.xcassets in Resources */,
 				C9ED92001C3AB59F00FF92C6 /* Main.storyboard in Resources */,
 			);
@@ -151,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9ED91FD1C3AB59F00FF92C6 /* ViewController.m in Sources */,
+				C92501641C3ABA060026ADE5 /* WJDatePickerView.m in Sources */,
 				C9ED91FA1C3AB59F00FF92C6 /* AppDelegate.m in Sources */,
 				C9ED91F71C3AB59F00FF92C6 /* main.m in Sources */,
 			);
@@ -301,6 +311,7 @@
 				C9ED920B1C3AB59F00FF92C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
